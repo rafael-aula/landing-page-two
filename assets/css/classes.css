@@ -1,0 +1,31 @@
+
+.main-bg {
+  background: rgb(0,212,255);
+  background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 50%, rgba(2,0,36,1) 100%);
+  color: var(--white-color);
+}
+
+.white-bg {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+  color: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu-spacing {
+  height: 65px;
+}
+
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}
